@@ -1,0 +1,14 @@
+{
+  "repo": "guidelight-health",
+  "feeds": [
+    {
+      "source": "https://guidelighthealth.com/about/",
+      "feed_url": "https://guidelighthealth.com/about/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
