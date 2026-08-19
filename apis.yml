@@ -30,7 +30,7 @@ x-tier-reason: portfolio-lead
 x-enrichment-note: 'Clinical mental-health provider, no public API/developer surface as of 2026-07-19;
   client portal is third-party Kipu. Enrichment limited to identity/link-property completeness and
   domain-security probe. No API artifacts fabricated.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
