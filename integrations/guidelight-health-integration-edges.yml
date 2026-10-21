@@ -1,0 +1,46 @@
+edges:
+- partner_name: CARF International (accredited providers)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://carf.org/provider/guidelight-health-burbank-415155/
+  category: CARF-accredited behavioral health / rehabilitation provider
+  contract_reference:
+    register: CARF International provider search (carf.org/find-provider)
+    standard: CARF accreditation (health and human services program standards)
+    spec_file: null
+    role: carf-accredited-provider
+    registered_name: Guidelight Health, Inc.(GLHMA)
+    register_id: '382995'
+    listed_website: www.guidelighthealth.com
+    matched_domain: guidelighthealth.com
+    matched_by: domain
+    certified_products:
+    - product: 'CARF accreditation: Behavioral Health'
+      product_type: Behavioral Health
+      lapsed: false
+    signal_note: certified_products = one per accreditation AREA, never per site; the search lists current accreditations
+      only, so lapsed is false
+    detected_by: sweep-behavioral-health-treatment.py
+    detected: '2026-10-21'
+  detected_by: sweep-behavioral-health-treatment.py
+  first_seen: '2026-10-21'
+generated: '2026-10-21'
+method: searched
+source:
+- https://findtreatment.gov/locator/exportsAsJson/v2
+- https://carf.org/find-provider/
+- https://www.bacb.com/services/o.php?page=101135
+- https://www.qualitycheck.org/
+- https://www.bhcoe.org/
+- https://www.samhsa.gov/data/data-we-collect/n-sumhss-national-substance-use-and-mental-health-services-survey
+checked:
+- https://carf.org/find-provider/
+- https://findtreatment.gov/locator/exportsAsJson/v2
+- https://www.bacb.com/services/o.php?page=101135
+- https://www.bhcoe.org/
+- https://www.qualitycheck.org/
+- https://www.samhsa.gov/data/data-we-collect/n-sumhss-national-substance-use-and-mental-health-services-survey
